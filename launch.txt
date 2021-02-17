@@ -1,0 +1,5 @@
+Переходим в папку venv при аткивированной вирутальной среде и запускаем)
+cd checkdetect/venv
+
+export FLASK_APP=server.py
+flask run
