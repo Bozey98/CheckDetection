@@ -1,0 +1,20 @@
+После установки Python3.7+
+
+Для использования Flask необходимо создать виртуальную среду, куда будут сохранены все доплнительные пакеты и зависимости.
+mkdir checkdetect
+cd checkdetect
+python3 -m venv venv
+
+Далее переходим в данную вирутальную среду и устаналиваем следюущие доп. пакеты.
+. venv/bin/activate
+
+pip install Flask
+pip install requests
+pip install opencv-python
+pip install tensorflow
+pip install Keras
+pip install pandas
+pip install scikit-image
+pip install --upgrade certifi
+
+После этого переходим к запуску Flask -> см. файл Launch.
