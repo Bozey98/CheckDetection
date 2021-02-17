@@ -17,4 +17,6 @@ pip install pandas
 pip install scikit-image
 pip install --upgrade certifi
 
+В папку venv загружаем содержимое данного гитахаба(Не в отдельную папку, а в корень), функция get содержится в файле server.py
+
 После этого переходим к запуску Flask -> см. файл Launch.
